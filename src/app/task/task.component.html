@@ -1,0 +1,107 @@
+<!-- <div class="container">
+    <ul>
+    <div class="row">
+        <div class="col">
+            <h1>MCQ Data</h1>
+            <h2> {{mcqData?.data.Question}} </h2>
+            <h2> {{mcqData?.status}} </h2>
+        </div>
+    </div>
+    <div class="row" *ngFor="let answer of mcqData?.data.Answers">
+        <div class="col-4">
+          <li> <b>id</b>
+           {{answer.id}}</li>
+        </div>
+        <div class="col-8">
+         <ul style="list-style-type:circle"  ><b>ans</b> 
+            {{answer.ans}}
+        </ul> </div>
+    </div>
+    <div class="row" >
+        <div class="col-4">
+           <b>id</b> 
+            {{mcqData?.data.test.id}}
+        </div>
+        <div class="col-4">
+            <b>sl_no</b>
+            {{mcqData?.data.test.sl_no}}
+        </div>
+        <div class="col-4">
+           <b>name</b> 
+            {{mcqData?.data.test.name}}
+        </div>
+    </div>
+    </ul>
+</div> -->
+<label>
+    <h1>Assignment data</h1>
+</label>
+<div class="container">
+    <div class="row">
+        <div class="col">
+          <ul style="list-style-type:square "> 
+            <li><h2>{{assignmentData?.Assignment_data?.question}}</h2></li>
+        </ul>
+        </div>
+    </div>
+    <div class="row" *ngFor=" let answer of mcqData?.data.Answers">
+        <div class="col">
+            <span>
+                <h3>Id.{{answer?.id}} Ans.{{answer?.ans}}</h3>
+            </span>
+            <!-- <h3> ans {{answer?.ans}}</h3> -->
+        </div>
+    </div>
+    <div>
+        <div>
+            <h4>{{assignmentData?.Assignment_data?.RestartCoding}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.ckpt_assignment}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.edge_subtopics}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.explanation}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.hints}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.id}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.level}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.node_subtopics}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.quesion}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.sample_input_format}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.sample_output_format}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.tag}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.timegiven}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.yourScore}}</h4>
+            <h4>{{assignmentData?.Assignment_data?.is_ckpt}}</h4>
+            <h4>{{assignmentData?.minimumMarksForPassing}}</h4>
+            <h4>{{assignmentData?.noOfAssignments}}</h4>
+            <h4>{{assignmentData?.pdata}}</h4>
+            <h4>{{assignmentData?.previousAsssignmentStatus}}</h4>
+            <h4>{{assignmentData?.solved}}</h4>
+        </div>
+    </div>
+</div>
+
+<label>
+    <h1>Mcq data</h1>
+</label>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul style="list-style-type:square"> 
+                <li>
+            <h2>{{mcqData?.data.Question}}</h2></li></ul>
+        </div>
+    </div>
+    <!-- <div class="row" *ngFor=" let answer of mcqData?.data.Answers">
+        <div class="col">
+            <h3> id {{answer?.id}}</h3>
+            <h3> ans {{answer?.ans}}</h3>
+        </div>
+        <div> -->
+    <h4>{{mcqData?.data?.Answers?.answer_Description}}</h4>
+    <h4>{{mcqData?.data?.Answers?.count}}</h4>
+    <h4>{{mcqData?.data?.Answers?.subtopic_name}}</h4>
+    <h4>{{mcqData?.data?.test.id}}</h4>
+    <h4>{{mcqData?.data?.test.name}}</h4>
+    <h4>{{mcqData?.data?.test.sl_no}}</h4>
+    <h4>{{mcqData?.data?.timegiven}}</h4>
+    <h4>{{mcqData?.data?.totalNumberOfMCQs}}</h4>
+    <h4>{{mcqData?.data?.status}}</h4>
+</div>

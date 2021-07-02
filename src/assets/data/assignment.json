@@ -1,0 +1,34 @@
+{
+    "noOfAssignments": 5,
+    "pdata": [
+        {
+            "is_assign": "True",
+            "Assignments": "Assignments",
+            "p1": 76,
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": ""
+        }
+    ],
+    "solved": false,
+    "Assignment_data": {
+        "id": 76,
+        "question": "Find  L.C.M of 2, 3  and 4",
+        "timegiven": 45,
+        "hints": null,
+        "tag": "mc10btriq5q5",
+        "explanation": "",
+        "sample_input_format": "",
+        "sample_output_format": "",
+        "node_subtopics": [],
+        "edge_subtopics": [],
+        "level": 1,
+        "ckpt_assignment": false,
+        "yourScore": 90,
+        "RestartCoding": true
+    },
+    "previousAsssignmentStatus": null,
+    "minimumMarksForPassing": 50,
+    "is_ckpt": false
+}
